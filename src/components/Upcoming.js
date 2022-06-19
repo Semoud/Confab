@@ -5,7 +5,8 @@ const Upcoming = () => {
 		<div className='py-10 md:py-20'>
 			<div className='contain pb-12'>
 				<h2 className=' text-4xl md:text-6xl'>
-					Upcoming <span className='text-opal'>events</span>
+					Upcoming <br />
+					<span className='text-opal'>events</span>
 				</h2>
 				<p className='max-w-xs pt-3'>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
 			</div>
