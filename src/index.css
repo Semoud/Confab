@@ -1,8 +1,18 @@
-/* FIXME: ADD THE TEXT THAT SHOULD BE AT THE TOP OF THE CSS FILE */
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+@import url('general-sans.css');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.container {
-	@apply mx-auto max-w-[90%];
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Koulen';
+}
+
+.contain {
+	@apply mx-auto w-[90%] max-w-7xl;
 }

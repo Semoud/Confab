@@ -3,7 +3,7 @@ import { PlusSmIcon } from '@heroicons/react/solid';
 const Navbar = () => {
 	return (
 		<div className='py-4 sm:py-8'>
-			<div className='container flex items-center justify-between '>
+			<div className='contain flex items-center justify-between '>
 				<a href='http://www.semoud.com/portfolio'>
 					<img src='./assets/logo.svg' alt='confab logo' />
 				</a>
