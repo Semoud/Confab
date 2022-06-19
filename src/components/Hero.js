@@ -2,7 +2,7 @@ import { ArrowNarrowRightIcon, BellIcon, UserGroupIcon } from '@heroicons/react/
 
 const Hero = () => {
 	return (
-		<div className='contain py-3'>
+		<div className='contain pt-3 pb-16'>
 			<div className='mb-6 lg:flex lg:items-end lg:justify-between'>
 				<h1 className='text-4xl md:text-8xl'>
 					Virtual
