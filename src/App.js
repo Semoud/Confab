@@ -2,6 +2,7 @@ import Brands from './components/Brands';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Preview from './components/Preview';
+import Testimonials from './components/Testimonials';
 
 function App() {
 	return (
@@ -10,6 +11,7 @@ function App() {
 			<Hero />
 			<Brands />
 			<Preview />
+			<Testimonials />
 		</div>
 	);
 }
