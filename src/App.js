@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Preview from './components/Preview';
 import Testimonials from './components/Testimonials';
+import Upcoming from './components/Upcoming';
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Brands />
 			<Preview />
 			<Testimonials />
+			<Upcoming />
 		</div>
 	);
 }

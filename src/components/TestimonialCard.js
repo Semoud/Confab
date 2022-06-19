@@ -1,6 +1,6 @@
 const TestimonialCard = ({ profile, name, job, body }) => {
 	return (
-		<div className='shrink-0 snap-start rounded-3xl border bg-white p-8'>
+		<div className='shrink-0 snap-start snap-always rounded-3xl border bg-white p-8'>
 			<div>
 				<p className='font-["Koulen"] text-3xl text-crayola md:text-4xl'>
 					"<span className='text-black'>{body}</span>"
