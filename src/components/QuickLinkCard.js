@@ -14,7 +14,7 @@ const QuickLinkCard = ({ body, setButtonFill, thumbnail, children }) => {
 				</a>
 			</div>
 			<div className='order-first sm:group-even:order-last sm:group-even:justify-self-end'>
-				<img className='mx-auto w-4/5 sm:mx-0 sm:w-auto' src={`./assets/quick-links_${thumbnail}.png`} alt={body} />
+				<img className='mx-auto w-4/5 sm:mx-0 sm:w-auto' src={`./assets/quick-links_${thumbnail}.svg`} alt={body} />
 			</div>
 		</div>
 	);
