@@ -8,10 +8,10 @@ const Upcoming = () => {
 					Upcoming <br />
 					<span className='text-opal'>events</span>
 				</h2>
-				<p className='max-w-xs pt-3'>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
+				<p className='max-w-xs pt-3 text-smoke'>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
 			</div>
 			<div className='ml-[5%] flex items-end sm:max-w-7xl md:mx-auto md:w-[90%]'>
-				<p className='hidden max-w-xs md:block'>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
+				<p className='hidden max-w-xs text-smoke md:block'>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
 				<div className='overflow-hidden md:ml-40'>
 					<div className='no-scrollbar flex snap-x snap-mandatory gap-10 overflow-scroll'>
 						<UpcomingCard title='Make a 3d motion graphic looks mesmerizing' date='Thu, 19 jul 2022' profile='peep_09' name='Jerry' position='3D Motion Graphics' />

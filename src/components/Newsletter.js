@@ -13,7 +13,7 @@ const Newsletter = () => {
 						<div className='mt-4 flex items-center gap-3 md:gap-6'>
 							<SpeakerphoneIcon className='h-5 w-5 shrink-0' />
 							<p className=' w-9/12'>
-								Get the latest <span className='text-crayola'>free</span> event conference notification and a reminder of upcoming speakers.
+								Get the latest <a href='https://www.semoud.com/portfolio'>free</a> event conference notification and a reminder of upcoming speakers.
 							</p>
 						</div>
 					</div>
@@ -22,13 +22,13 @@ const Newsletter = () => {
 						<div className='mt-6 flex flex-col justify-between gap-6 md:flex-row'>
 							<div className='flex items-center md:w-2/4'>
 								<input className='h-6 w-6 appearance-none rounded-lg bg-cloudy p-1 text-stormy checked:bg-stormy focus:ring-stormy' type='checkbox' name='terms' id='terms' />
-								<p className='ml-4 text-xs'>
+								<p className='ml-4 text-xs text-smoke'>
 									I agree with{' '}
-									<a className='text-black underline' href='https://www.semoud.com/portfolio'>
+									<a className='text-smoke underline' href='https://www.semoud.com/portfolio'>
 										Privacy Policy
 									</a>{' '}
 									and{' '}
-									<a className='text-black underline' href='https://www.semoud.com/portfolio'>
+									<a className='text-smoke underline' href='https://www.semoud.com/portfolio'>
 										Terms of Conditions
 									</a>
 								</p>

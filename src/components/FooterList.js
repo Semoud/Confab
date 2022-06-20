@@ -6,7 +6,7 @@ const FooterList = ({ title, links }) => {
 				{links.map(link => {
 					return (
 						<li className='mt-6 first-of-type:mt-0'>
-							<a className='text-smoke' href='https://www.semoud.com/portfolio'>
+							<a className='text-black' href='https://www.semoud.com/portfolio'>
 								{link}
 							</a>
 						</li>

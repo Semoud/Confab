@@ -19,7 +19,7 @@ const Footer = () => {
 				</div>
 				<div className='mt-9 flex flex-col items-center justify-between sm:mt-14 md:flex-row md:items-start'>
 					<div className='flex h-full flex-col items-center justify-between md:items-start'>
-						<p className='max-w-xs text-center md:text-left'>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
+						<p className='max-w-xs text-center text-smoke md:text-left'>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
 						<a className='mt-6 inline-block rounded-full border border-black py-2 pl-4 pr-6 text-black sm:mt-8' href='https://www.semoud.com/portfolio'>
 							<div className='flex items-center gap-2'>
 								<PlusSmIcon className='h-5 w-5' />

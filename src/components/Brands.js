@@ -15,8 +15,8 @@ const Brands = () => {
 					</div>
 				</div>
 				<div>
-					<p className='mx-auto mt-12 max-w-xs text-center'>
-						Used by over <span className='text-crayola'>50+ million</span> users worldwide and trusted by top-tier companies.
+					<p className='mx-auto mt-12 max-w-xs text-center text-smoke'>
+						Used by over <a href='https://www.semoud.com/portfolio'>50+ million</a> users worldwide and trusted by top-tier companies.
 					</p>
 				</div>
 			</div>
