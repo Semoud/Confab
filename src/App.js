@@ -11,9 +11,7 @@ import Upcoming from './components/Upcoming';
 
 function App() {
 	return (
-		// TODO: REPLACE ALL BUTTONS WITH A BUTTON COMPONENT
 		// TODO: CHANGE NEWSLETTER INPUT AUTOFILL BG COLOUR
-		// TODO: TRANSITION FOOTER SOCIAL ICONS
 		<div className='App'>
 			<Navbar />
 			<Hero />

@@ -1,4 +1,4 @@
-import { CollectionIcon } from '@heroicons/react/solid';
+import Button from './Button';
 
 const Preview = () => {
 	return (
@@ -26,13 +26,8 @@ const Preview = () => {
 				<div className='col-span-auto rounded-3xl bg-cloudy p-8 sm:col-span-2 md:col-span-1'>
 					<p>Virtual meetings, and conferences, anyone can share, join or host (virtual events).</p>
 					<div className='mt-7 flex flex-wrap gap-2'>
-						<a className='rounded-full border border-black bg-black py-2 px-6 text-center font-["GeneralSans-SemiBold"] text-white' href='https://www.semoud.com/portfolio'>
-							Get Started
-						</a>
-						<a className='flex justify-center gap-2 rounded-full border border-black py-2 px-6 font-["GeneralSans-SemiBold"] text-black' href='https://www.semoud.com/portfolio'>
-							<CollectionIcon className='w-5' />
-							<p>Browse</p>
-						</a>
+						<Button text='Get Started' setButtonFill='true' />
+						<Button pre='CollectionIcon' text='Browse' />
 					</div>
 				</div>
 			</div>

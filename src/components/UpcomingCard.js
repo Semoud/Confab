@@ -14,7 +14,7 @@ const UpcomingCard = ({ title, date, profile, name, position }) => {
 						<p className='font-["Koulen"] text-xl text-stormy'>{name}</p>
 						<p className='text-sm text-smoke'>{position}</p>
 					</div>
-					<a className='mt-4 px-2 pt-1 sm:mt-0' href='https://www.semoud.com/portfolio'>
+					<a className='mt-4 px-2 pt-1 text-black sm:mt-0' href='https://www.semoud.com/portfolio'>
 						<ArrowNarrowRightIcon className='h-5 w-5' />
 					</a>
 				</div>

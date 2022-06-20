@@ -7,7 +7,7 @@ const Navbar = () => {
 				<a href='http://www.semoud.com/portfolio'>
 					<img src='./assets/logo.svg' alt='confab logo' />
 				</a>
-				<a className='flex items-center rounded-3xl bg-black py-2 px-6 text-white' href='http://www.semoud.com/portfolio'>
+				<a className='flex items-center rounded-3xl bg-black py-2 pr-6 pl-4 text-white' href='http://www.semoud.com/portfolio'>
 					<span className='sm:mr-2'>
 						<PlusSmIcon className='h-5 w-5' />
 					</span>
