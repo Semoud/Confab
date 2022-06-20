@@ -10,6 +10,7 @@ module.exports = {
 			},
 			colors: {
 				crayola: '#FB554C',
+				mango: '#F4BB44',
 				smoke: '#4E4F51',
 				stormy: '#323334',
 				opal: '#8DBAB5',
