@@ -20,13 +20,13 @@ const Hero = () => {
 							<p className='font-["Koulen"] text-xl text-crayola'>Thu, 19 May 2022</p>
 						</div>
 						<div className='mt-10 sm:mt-28'>
-							<img className='mb-4 h-12 w-12 rounded-2xl' src='./assets/hero_profile.png' alt='profile image' />
+							<img className='mb-4 h-12 w-12 rounded-2xl bg-white sm:bg-cloudy' src='./assets/peep_01.svg' alt='profile image' />
 							<div className='flex flex-wrap items-center justify-between'>
 								<div>
 									<p className='font-["Koulen"] text-xl text-stormy'>Pablo stanley</p>
 									<p className='text-sm text-smoke'>Art Director & Illustrator</p>
 								</div>
-								<a className='mt-4 px-2 pt-1 sm:mt-0' href='https://www.semoud.com/portfolio'>
+								<a className='mt-4 px-2 pt-1 text-black sm:mt-0' href='https://www.semoud.com/portfolio'>
 									<ArrowNarrowRightIcon className='h-5 w-5' />
 								</a>
 							</div>
